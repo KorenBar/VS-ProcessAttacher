@@ -1,0 +1,12 @@
+*.ncb
+*.suo
+*.atsuo
+*.htm
+*.user
+.vs
+
+obj
+Debug
+Release
+bin
+Packages
