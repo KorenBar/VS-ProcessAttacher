@@ -14,7 +14,7 @@
   </PropertyGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM64' ">
-    <Exec Command="call PostBuildEvent.bat" />
+    <Exec Command="powershell start-process PostBuildEvent.bat" />
   </Target>
 	
   <ItemGroup>
